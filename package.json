@@ -1,7 +1,14 @@
 {
   "name": "erc20-presale",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1"
   }
 }
