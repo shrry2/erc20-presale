@@ -38,7 +38,7 @@ contract Presale is Ownable, ERC165 {
     /**
      * Constructor
      */
-    constructor(uint256 _feeAmount, address _ownerAddress) payable {
+    constructor(uint256 _feeAmount, address _ownerAddress) {
         // transfer ownership
         transferOwnership(_ownerAddress);
 
